@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Shop</title>
+    <style>
+        .container{
+            max-width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container justify-content-center text-center">
+        <div class="card">
+            <h3>Írja ide a megvásárolni kívánt termék nevét!</h3>
+            <input type="text" name="" id="beir" value="">
+            <input type="text" name="" id="menny" value="">
+            <input type="button" value="hozzáad" onclick="hozzaad()">
+        </div>
+        <div class="card">
+            <h3>Termékek</h3>
+            <ul id="lista"></ul>
+            <input class="bg-danger text-white" type="button" value="összes törlése" onclick="del()">
+        </div>
+    </div>
+    <script src="adatok.js"></script>
+    <script src="shop.js"></script>
+    
+</body>
+</html>
